@@ -1,0 +1,32 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(1) {
+    background-color: #002537;
+}
+
+section:nth-child(1) h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+
+section:nth-child(3) {
+    background-color: #002537;
+}
+
+.reveal {
+    transform: translateY(120px);
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}
+
+.scrollActive {
+    transform: translateY(0px);
+    opacity: 1;
+}
